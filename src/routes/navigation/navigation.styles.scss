@@ -1,0 +1,39 @@
+
+.nav-container {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    
+    
+    .nav-link-container {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .active {
+            text-decoration: underline;
+        }
+
+    }
+    a {
+        padding: 10px 15px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 20px;
+        color: whitesmoke;
+        
+    }
+
+    a:hover {
+        color: black;
+    }
+    .logo-container {
+        height: 100%;
+        width: 70px;
+        padding: 25px;
+    }
+}

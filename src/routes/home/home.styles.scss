@@ -1,0 +1,64 @@
+.home-container {
+    margin: 110px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    // border: solid red 2px;
+    .text-container{
+        font-size: 30px;
+        .name{
+            font-size: 25px;
+        }
+        .wave{
+            animation-name: wave-animation;
+            animation-duration: 2.1s;
+            animation-iteration-count: infinite;
+            transform-origin: 70% 70%;
+        }
+        h2{
+            margin-bottom: 0px;
+        }
+
+    }
+    .icon-container {
+        width: 100%;
+        display: flex;
+        .icons{
+            width: 20%;
+
+            .icon {
+
+                height: 100%;
+                width: 25px;
+                cursor: pointer;
+            }
+        }
+    }
+}   
+
+@keyframes wave-animation {
+    0% {
+         transform: rotate(0); 
+    }
+    10% {
+        transform: rotate(14deg); 
+    }
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
