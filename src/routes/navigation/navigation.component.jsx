@@ -48,7 +48,7 @@ const Navigation = () => {
     return (
         <div >
             <div className="nav-container">
-                <div className="logo-container"/>
+                <div className="logo-container"><h1><span>Emmanuel</span> Amakiri</h1></div>
                 <div className="nav-link-container">
                     <Link to='/' className={home} onClick={homeClickHandler}>
                         Home

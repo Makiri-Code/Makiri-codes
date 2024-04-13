@@ -1,0 +1,21 @@
+.about-me-container {
+    width: 80vw;
+    margin: 100px auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .image-container{
+        height: 500px;
+        width: 500px;
+        img {
+            border-radius: 50%;
+            width: 450px;
+            height: 450px;
+        }
+    }
+    .about-text-box{
+        font-size: 25px;
+        width: 50%;
+    }
+}

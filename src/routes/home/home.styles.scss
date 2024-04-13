@@ -1,39 +1,87 @@
-.home-container {
-    margin: 110px 120px;
+.container {
+    width: 80vw;
+    margin: 100px auto;
+    height: auto;
     display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    // border: solid red 2px;
-    .text-container{
-        font-size: 30px;
-        .name{
-            font-size: 25px;
-        }
-        .wave{
-            animation-name: wave-animation;
-            animation-duration: 2.1s;
-            animation-iteration-count: infinite;
-            transform-origin: 70% 70%;
-        }
-        h2{
-            margin-bottom: 0px;
-        }
-
-    }
-    .icon-container {
-        width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    .home-container {
         display: flex;
-        .icons{
-            width: 60px;
-            padding: 10px 0px;
-            .icon {
-                height: 100%;
-                width: 20px;
-                cursor: pointer;
+        flex-wrap: wrap;
+        width: 50%;
+        // border: solid red 2px;
+        .text-container{
+            font-size: 25px;
+            .name{
+                font-size: 30px;
+            }
+            .wave{
+                animation-name: wave-animation;
+                animation-duration: 2.1s;
+                animation-iteration-count: infinite;
+                transform-origin: 70% 70%;
+            }
+            h3{
+                margin-bottom: 0px;
+                .typed {
+                    color: whitesmoke;
+                }
+            }
+    
+        }
+        .icon-container {
+            width: 100%;
+            display: flex;
+            .icons{
+                width: 45px;
+                height: 45px;
+                margin: 0 8px;
+                text-align: center;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items:center ;
+                border: 2px solid rgb(0, 0, 0);
+                .icon {
+                    width: 35px;
+                    height: 35px;
+                    cursor: pointer;
+    
+                }
+                .icon:hover {
+                    transform: scale(1);
+                }
             }
         }
+        button{
+            border: 2px solid rgb(87, 116, 229);
+            margin-top: 20px;
+            width: 200px;
+            height: 40px;
+            font-size: 20px;
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 20px;
+            color: rgb(87, 116, 229);
+            cursor: pointer;
+        }
+        button:hover {
+            filter: brightness(70%);
+        }
     }
-}   
+    .image-container {
+        height: 500px;
+        width: 500px;
+        img {
+            border-radius: 50%;
+            width: 450px;
+            height: 450px;
+        }
+    }  
+
+}
+
+ 
+
 
 @keyframes wave-animation {
     0% {

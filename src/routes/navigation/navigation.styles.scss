@@ -1,19 +1,16 @@
 
 .nav-container {
     height: 70px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
-    
+    align-items: center;
     
     .nav-link-container {
-        width: 50%;
-        height: 100%;
         display: flex;
         align-items: center;
         justify-content: flex-end;
-
+        padding-right: 30px;
         .active {
             text-decoration: underline;
         }
@@ -23,7 +20,7 @@
         padding: 10px 15px;
         cursor: pointer;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 25px;
         color: whitesmoke;
         
     }
@@ -33,7 +30,10 @@
     }
     .logo-container {
         height: 100%;
-        width: 70px;
-        padding: 25px;
+        width: auto;
+        margin-left: 80px;
+        span{
+            color: rgb(255, 255, 255);
+        }
     }
 }
