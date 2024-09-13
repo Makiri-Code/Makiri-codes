@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className="about-me-container">
             <div className="image-container">
-                <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Profile Photo" />
             </div>
             <div className="about-text-box">
             <h2>About Me</h2>
